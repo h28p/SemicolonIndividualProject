@@ -1,2 +1,13 @@
-# SemicolonIndividualProject
-Dijkstra / Bellman-Ford / Floyd-Warshall
+# 세미콜론 개인프로젝트 - 11226 이승민
+
+## 세 가지 최단 거리 알고리즘 비교 + 구현하기
+
+- 다익스트라 Dijkstra
+- 벨만-포드 Bellman-Ford
+- 플로이드-워셜 Floyd-Warshall
+
+## 다익스트라 알고리즘
+
+## 벨만-포드 알고리즘
+
+## 플로이드-워셜 알고리즘
