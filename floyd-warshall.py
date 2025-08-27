@@ -15,9 +15,11 @@ for i in range(M):
     a, b, c = map(int, input().split())
     dist[a][b] = min(dist[a][b], c)
 
+# 인접 행렬 형식
 for i in range(1, N+1):
     dist[i][i] = 0
 
+# N번 반복 : 모든 점의 조합에 대해 갱신
 for k in range(1, N+1):
     for i in range(1, N+1):
         for j in range(1, N+1):
@@ -29,4 +31,5 @@ for i in range(1, N+1):
             print(0, end=" ")
         else:
             print(dist[i][j], end=" ")
+
     print()
